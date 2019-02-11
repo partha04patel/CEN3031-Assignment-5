@@ -6,5 +6,5 @@ module.exports = {
     uri: 'mongodb://parth04:pp04111998@ds121135.mlab.com:21135/cen3031practice',
     //place the URI of your mongo database here.
   }, 
-  port: 8080
+  port: process.env.PORT || 8080
 };
