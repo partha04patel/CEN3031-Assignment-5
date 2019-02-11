@@ -5,7 +5,7 @@ angular.module('listings', []).factory('Listings', function($http) {
        returns result of HTTP GET Request with given listing to route specified by Express.
        */
      // return $http.get('http://localhost:8080/api/listings');
-     return $http.post('https://tranquil-gorge-24478.herokuapp.com/api/listings', listing); 
+     return $http.post('https://tranquil-gorge-24478.herokuapp.com/api/listings'); 
     },
 	
 	create: function(listing) {
